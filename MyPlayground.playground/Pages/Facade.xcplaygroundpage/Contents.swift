@@ -6,3 +6,4 @@ var greeting = "Hello, playground"
 
 //: [Next](@next)
 
+// facade(front) of the house

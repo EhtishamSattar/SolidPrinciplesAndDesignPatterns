@@ -9,5 +9,8 @@
         <page name='TemplateMethod'/>
         <page name='SolidPrinciples'/>
         <page name='OCP'/>
+        <page name='Prototype'/>
+        <page name='Proxy'/>
+        <page name='Factory Method'/>
     </pages>
 </playground>

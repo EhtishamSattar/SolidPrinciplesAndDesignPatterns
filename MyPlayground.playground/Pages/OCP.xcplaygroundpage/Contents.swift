@@ -4,7 +4,6 @@ import Foundation
 
 var greeting = "Hello, playground"
 
-
 import Foundation
 
 enum Fuel {
@@ -74,17 +73,7 @@ class ManualVehicle: VehicleProtocol {
 
 class Vehicle {
     private var vehicle: VehicleProtocol
-    
-//    var name: String {
-//        get { vehicle.name }
-//        set { vehicle.name = newValue }
-//    }
-//    
-//    var color: String {
-//        get { vehicle.color }
-//        set { vehicle.color = newValue }
-//    }
-//    
+     
     init(vehicle: VehicleProtocol) {
         self.vehicle = vehicle
     }
@@ -115,7 +104,6 @@ extension Vehicle {
         print("Gear changing...")
     }
 }
-
 
 vh.changeGear()
 vh2.changeGear()
