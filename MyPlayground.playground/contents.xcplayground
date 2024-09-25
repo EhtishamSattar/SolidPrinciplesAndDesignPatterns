@@ -12,5 +12,7 @@
         <page name='Prototype'/>
         <page name='Proxy'/>
         <page name='Factory Method'/>
+        <page name='Enums'/>
+        <page name='FocusState'/>
     </pages>
 </playground>

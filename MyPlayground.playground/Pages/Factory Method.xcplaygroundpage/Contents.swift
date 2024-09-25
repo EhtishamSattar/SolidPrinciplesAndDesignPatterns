@@ -6,7 +6,18 @@ var greeting = "Hello, playground"
 
 //Factory Method is a creational design pattern that is aimed to hide the creation logic of an object. Also the pattern is very useful when we don't know in advance which type of an object we are going to use. Factory Method pattern is relatevely easy to implement.
 
+enum Engine {
+    case v8
+    case v2
+    case v12
+    case cylinderEngine
+}
 
+enum Price {
+    case expensive
+    case affordable
+    case cheap
+}
 protocol Car {
     var name: String { get }
     var engine: Engine { get }

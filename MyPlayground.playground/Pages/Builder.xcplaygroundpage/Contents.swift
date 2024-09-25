@@ -103,24 +103,6 @@ class ConstructionDirector {
 }
 
 
-class ConstructionDirector {
-    private var builder: HouseBuilder
-    
-    init(builder: HouseBuilder) {
-        self.builder = builder
-    }
-    
-    func constructHouse() -> House {
-        builder.buildWalls()
-        builder.buildDoors()
-        builder.buildWindows()
-        builder.buildRoof()
-        builder.addGarage()
-        return builder.house
-    }
-}
-
-
 // Client code
 let woodenHouseBuilder = WoodenHouseBuilder()
 let brickHouseBuilder = BrickHouseBuilder()
